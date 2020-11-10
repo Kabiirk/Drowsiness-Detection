@@ -21,11 +21,15 @@
 
 ### Get started !
 **STEP 1: Run the project**
+ 
 To run the project, just open you command line and run *drowsiness_detection.py* from the command line by typing:
+
 ```
 python drowsiness_detection.py
 ```
 Upon which, a window will open showing the webcam's input
+
+---
 
 ### **Working of the Project**
 Whenever the model detects that you eyes are closed, the score starts increasing, and decrases when it is detected that your eyes are open.
