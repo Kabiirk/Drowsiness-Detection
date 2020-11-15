@@ -32,6 +32,6 @@ Upon which, a window will open showing the webcam's input
 ---
 
 ### **Working of the Project**
-Whenever the model detects that you eyes are closed, the score starts increasing, and decrases when it is detected that your eyes are open.
+Whenever the model detects that you eyes are closed, the score starts increasing & when the score goes above a certain limit(15 in this case), it starts playing the alamr.wav soundfile(which won't stop until the score back to zero again), and decrases when it is detected that your eyes are open.
 
 ## All Done :sparkles:
